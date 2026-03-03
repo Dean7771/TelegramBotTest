@@ -16,6 +16,8 @@ catalog = InlineKeyboardMarkup(
             text="Adidas", callback_data='brand_adidas')],
         [InlineKeyboardButton(
             text="Reebok", callback_data='brand_reebok')]
+        [InlineKeyboardButton(
+            text="Test", callback_data='brand_test')]
     ]
 )
 
