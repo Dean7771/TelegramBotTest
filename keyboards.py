@@ -2,7 +2,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 
 menu = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="Начать диалог с ИИ")]
+        [KeyboardButton(text="Прервать запрос!")]
     ], resize_keyboard=True,
     input_field_placeholder="Выберите пункт меню!")
 
