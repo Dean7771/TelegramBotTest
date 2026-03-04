@@ -2,24 +2,9 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 
 menu = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="Каталог111")],
-        [KeyboardButton(text="Контакты"), KeyboardButton(text="Корзина")]
+        [KeyboardButton(text="Начать диалог с ИИ")]
     ], resize_keyboard=True,
-    input_field_placeholder="Выберите пункт меню!"
-)
-
-catalog = InlineKeyboardMarkup(
-    inline_keyboard=[
-        [InlineKeyboardButton(
-            text="Nike", callback_data='brand_nike')],
-        [InlineKeyboardButton(
-            text="Adidas", callback_data='brand_adidas')],
-        [InlineKeyboardButton(
-            text="Reebok", callback_data='brand_reebok')],
-        [InlineKeyboardButton(
-            text="Test", callback_data='brand_test')]
-    ]
-)
+    input_field_placeholder="Выберите пункт меню!")
 
 get_number = ReplyKeyboardMarkup(
     keyboard=[
